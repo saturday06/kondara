@@ -1,0 +1,6 @@
+# https://github.com/psf/black/blob/22.3.0/docs/guides/using_black_with_other_tools.md#flake8
+max-line-length = 88
+
+extend-ignore =
+    # https://github.com/PyCQA/pycodestyle/issues/373
+    E203,
